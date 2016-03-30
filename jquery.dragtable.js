@@ -187,7 +187,7 @@
       var attrs = this.originalTable.el[0].attributes;
       var attrsString = '';
       for (var i = 0; i < attrs.length; i++) {
-        if (attrs[i].nodeValue && attrs[i].nodeName != 'id' && attrs[i].nodeName != 'width') {
+        if (attrs[i].nodeName != 'id' && attrs[i].nodeName != 'width') {
           attrsString += attrs[i].nodeName + '="' + attrs[i].nodeValue + '" ';
         }
       }
@@ -201,7 +201,7 @@
         var attrs = this.attributes;
         var attrsString = "";
         for (var j = 0; j < attrs.length; j++) {
-          if (attrs[j].nodeValue && attrs[j].nodeName != 'id') {
+          if (attrs[j].nodeName != 'id') {
             attrsString += " " + attrs[j].nodeName + '="' + attrs[j].nodeValue + '"';
           }
         }
