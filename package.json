@@ -16,7 +16,7 @@
     "url": "https://github.com/dpsxp/dragtable/issues"
   },
   "homepage": "https://github.com/dpsxp/dragtable#readme",
-  "dependencies": {
+  "peerDependencies": {
     "jquery": "^2.x.x",
     "jquery-ui": "^1.10.5"
   }
