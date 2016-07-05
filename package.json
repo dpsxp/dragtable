@@ -1,0 +1,23 @@
+{
+  "name": "dragtable",
+  "version": "1.0.0",
+  "description": "jquery dragtable ================ samples : http://akottr.github.io/dragtable",
+  "main": "jquery.dragtable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpsxp/dragtable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpsxp/dragtable/issues"
+  },
+  "homepage": "https://github.com/dpsxp/dragtable#readme",
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "jquery-ui": "^1.10.5"
+  }
+}
